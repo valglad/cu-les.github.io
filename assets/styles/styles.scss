@@ -1,9 +1,14 @@
 ---
 ---
+
+ @import 'https://fonts.googleapis.com/css?family=Bubblegum+Sans|Montserrat';
+
 body {
 	padding: 0 2rem;
 	max-width: 1000px;
 	margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1rem;
 }
 
 nav {
@@ -33,10 +38,14 @@ nav {
 	}
 }
 
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
 a {
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
-	transition: border 0.3s ease;
+	transition: border 0.3s ease, opacity 0.3s ease;
 
 	&:hover {
 		border-bottom-color: #6060ff;
@@ -44,7 +53,8 @@ a {
 
 	&.image-link {
 		&:hover {
-			opacity: 0.7;
+			border-bottom: transparent;
+			opacity: 0.6;
 		}
 	}
 }
