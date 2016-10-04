@@ -1,7 +1,7 @@
 ---
 ---
 
- @import 'https://fonts.googleapis.com/css?family=Bubblegum+Sans|Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Bubblegum+Sans|Montserrat';
 
 body {
 	padding: 0 2rem;
@@ -38,8 +38,10 @@ nav {
 	}
 }
 
+
 h1 {
     font-family: 'Bubblegum Sans', cursive;
+    line-height: 2rem;
 }
 h2, h3 {
 	padding-top: 15px;
@@ -53,6 +55,7 @@ h4 {
 p {
 	margin: 0 0 10px 0;
 }
+
 
 a {
 	text-decoration: none;
