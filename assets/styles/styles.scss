@@ -33,6 +33,14 @@ nav {
 				font-size: 0.8rem;
 				text-transform: uppercase;
 				padding: 5px;
+
+				&.active {
+					color: #484848;
+
+					&:hover {
+						border-color: transparent;
+					}
+				}
 			}
 		}
 	}
