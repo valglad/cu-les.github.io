@@ -1,7 +1,7 @@
 ---
 ---
 
-@import 'https://fonts.googleapis.com/css?family=Bubblegum+Sans|Montserrat';
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds');
 
 body {
 	padding: 0.5rem 2rem 3rem 2rem;
@@ -55,6 +55,7 @@ nav {
 
 h1 {
     font-family: 'Bubblegum Sans', cursive;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 h2, h3 {
@@ -112,9 +113,23 @@ a {
 	text-align: center;
 }
 
-.unfrozen {
-    font-family: 'Fontdiner Swanky', cursive;
-    color: #29bffb;
+.frankenstein {
+ 	font-family: 'Trade Winds', cursive;
+    font-weight: normal;
+    color: #005600;
     font-size: 5rem;
-    margin-bottom: 35px;
+    line-height: 4rem;
+    margin-bottom: 0px;
+    margin-top: 30px;
+
+    .subhead {
+    	display: block;
+    	font-size: 2rem;
+    }
+
+    & + h3 {
+    	padding-top: 0;
+    	margin-top: 0;
+    	margin-bottom: 30px;
+    }
 }
