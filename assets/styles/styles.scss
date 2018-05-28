@@ -56,11 +56,12 @@ nav {
     padding-left: 15px;
 }
 
-h1 {
+h1.cules {
     font-family: 'Bubblegum Sans', cursive;
     font-size: 1.2rem;
     line-height: 2rem;
 }
+
 h2, h3 {
 	@extend .padded-top;
 }
