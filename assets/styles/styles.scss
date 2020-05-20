@@ -58,9 +58,11 @@ nav {
 
 .margin-top--none {
 	margin-top: 0;
+	padding-top: 0;
 }
 .margin-bottom--none {
 	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 h1.cules {
@@ -126,4 +128,14 @@ a {
 
 .text--right {
 	text-align: right;
+}
+.left-align {
+	float: left;
+	width: 30%;
+	padding: 5%;
+}
+.right-align {
+	float: right;
+	width: 50%;
+	padding: 0%;
 }
