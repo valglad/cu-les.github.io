@@ -22,8 +22,8 @@ title: Cambridge University Light Entertainment Society
 email: soc-cules-committee@lists.cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   We are a group of Cambridge University students who produce comedy shows to raise money for charity, and take it to members of the local community who might not usually have the chance to see theatre - all this while having lots of (very) amateur dramatics fun!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: http://cules.new-space # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /cu-les.github.io # the subpath of your site, e.g. /blog
+url: https://valglad.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: jekyll-theme-slate
